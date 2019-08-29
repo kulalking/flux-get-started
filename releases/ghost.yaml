@@ -3,12 +3,12 @@ apiVersion: flux.weave.works/v1beta1
 kind: HelmRelease
 metadata:
   name: ghost33
-  namespace: demo3
+  namespace: demo4
   annotations:
     flux.weave.works/automated: "false"
     flux.weave.works/tag.chart-image: glob:1.21.*
 spec:
-  releaseName: ghost33
+  releaseName: ghost34
   chart:
     git: ssh://git@github.com/weaveworks/flux-get-started
     ref: master
